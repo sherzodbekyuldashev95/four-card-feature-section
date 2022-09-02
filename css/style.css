@@ -21,7 +21,7 @@ header{
     justify-items: center;
     align-items: center;
     text-align: center;
-    margin: 4rem auto 3rem;
+    margin: 4rem auto 1rem;
     max-width: 600px;
 }
 
@@ -123,6 +123,21 @@ header p{
 .icon{
     display: flex;
     justify-content: end;
+}
+
+
+footer{
+    text-align: center;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.attribution{
+    max-width: 500px;
+    margin: 0 auto;
+    color: white;
 }
 
 /*mobile responsive*/
