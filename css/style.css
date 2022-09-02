@@ -21,8 +21,7 @@ header{
     justify-items: center;
     align-items: center;
     text-align: center;
-    margin-top: 4rem;
-    margin-bottom: 3rem;
+    margin: 4rem auto 3rem;
 }
 
 h1{
@@ -106,15 +105,9 @@ header p{
 /*mobile responsive*/
 
 @media only screen and (max-width: 480px){
-    .main{
-        width: 480px;
-        height: auto;
-        margin: 3% auto;
-    }
     
     .container{
-    width: 100%;
-    height: auto;
+    width: 90%;
     display: grid;
     grid-template-areas: "team-builder"
                          "supervisor"
