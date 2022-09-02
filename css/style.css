@@ -21,7 +21,7 @@ header{
     justify-items: center;
     align-items: center;
     text-align: center;
-    margin: 4rem auto 1rem;
+    margin: 3rem auto 1rem;
     max-width: 600px;
 }
 
@@ -43,7 +43,7 @@ header p{
 
 .main{
     max-width: 1440px;
-    margin: 3% auto;
+    margin: 0.5% auto;
     height: 600px;
 }
 
@@ -135,7 +135,7 @@ footer{
 }
 
 .attribution{
-    max-width: 500px;
+    max-width: 250px;
     margin: 0 auto;
     color: white;
 }
@@ -214,6 +214,10 @@ footer{
         border-radius: 5px;
         padding: 25px 25px;
         box-shadow: 1px 4px 10px 1px hsl(214, 31%, 80%);
+    }
+
+    footer{
+        margin-top: 10px;
     }
         
 }
